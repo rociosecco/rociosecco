@@ -318,6 +318,13 @@ main {
     animation-duration: 3s;
     animation-name: slidein;
   }
+  @media only screen and (min-width: 480px)
+   {margin-left: 100px;
+    width: 500px;
+    height: 250px;
+    border: 1px solid rgb(183,85,118);
+    box-shadow: 0px 0px 4px 4px rgb(243 243 243);
+    transition: all 300ms;text-align: center;}
   
   @keyframes slidein {
     from {
