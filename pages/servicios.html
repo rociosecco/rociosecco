@@ -9,16 +9,16 @@
         content="Contrata tu servicio de Maquillaje profesional en Buenos Aires, Maquillaje para eventos, Cursos de Automaquillaje, Maquillaje de Novias. Encontra Tutoriales de maquillaje para principiantes">
     <meta name="keywords"
         content="Contrata un curso de Automaquillaje para aprender a maquillarte desde cero. Contrata servicio de Maquillaje social y Maquillaje de Novias">
-
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
         crossorigin="anonymous"></script>
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    
     
     <title>Servicios</title>
     <link rel="stylesheet" href="estilos.css">
@@ -32,8 +32,8 @@
             text-align: center;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
-         .row {margin-top: 100px;
-    margin-left: 50px;}
+         
+   
         h3{margin-top: 100px;}
         
         .color3{margin-left: 100px;}
@@ -46,9 +46,9 @@
 
 
         ul {
-            list-style: none;
+            
             background-color: rgb(233, 190, 217);
-            border: 2px solid #000;
+            max-width: 100%;
             font-size: 0;
             /* truco por el uso de inline-block*/
         }
@@ -58,13 +58,17 @@
             width: 15%;
             position: relative;
             font-size: 15px;
+           
         }
 
         li a {
             text-decoration: none;
             color: rgb(96, 24, 120);
             text-shadow: 0px 0px 10px #fff;
-            text-align: center;
+            text-align: justify;
+            font-size: medium;
+            border: 2px black
+            
         }
 
         li a:hover {
@@ -74,31 +78,28 @@
         ul ul {
             position: absolute;
             display: none;
+            padding: 10px 30px;
         }
 
         ul ul li {
-            display: block;
+            display:inline-block ;
             text-align: center;
+            width: 100px;
+            font-size:small;
+            margin-right: 50px;
+            margin-left: 50px;
         }
 
         ul li:hover ul {
             display: block;
         }
-
+     img{max-width: 100%;}
 
         /* estilos para el nav - fin*/
 
 
-        ol {
-            background-color: red;
-            height: 50px;
-            width: 100%;
-            color: yellow;
-        }
 
-        li {
-            color: violet;
-        }
+        
     </style>
 
 </head>
@@ -113,15 +114,15 @@
                 <li><a href="..\pages\moda.html">Maquillaje de Moda</a></li>
                 <li><a href="..\pages\social.html">Maquillaje social</a>
                     <ul>
-                        <li><a href="">Maquillaje de novia</a></li>
+                        <li><a href="">Novias</a></li>
                         <li><a href="">Madrinas</a></li>
                     </ul>
                 </li>
                 <li><a href="..\pages\precios.html">Precios</a></li>
             </ul>
         </nav>
-        <nav><a href=./index.html>Inicio</a>
-            <a href=./pages/Contacto.html>Contacto</a>
+        <nav><a href=../index.html>Inicio</a>
+            <a href=../pages/Contacto.html>Contacto</a>
         </nav>
         <h1>Cursos y Servicios</h1>
         
@@ -136,14 +137,14 @@
     </nav>
 
     <section class="row">
-        <article class="color3 col-xs-12 col-sm-4 col-md-6 col-lg-6">
-            <h3>Maquillaje Social</h3>
-            <P>Podes contratar un maquillaje social para tu evento. Hacemos el maquillaje que sea mejor para vos y
+    <article class="color3 col-xs-12 col-sm-4 col-md-6 col-lg-6">
+    <h3>Maquillaje Social</h3>
+     <P>Podes contratar un maquillaje social para tu evento. Hacemos el maquillaje que sea mejor para vos y
                 respetando tu estilo</P>
-            <img src="../Imagenes/maquillajesocial.PNG" alt= ejemplo de maquillaje social class="col-xs-3 img fluid">
-        </article>
+    <img src="../Imagenes/maquillajesocial.PNG" alt= ejemplo de maquillaje social class="col-xs-3 img fluid">
+    </article>
         <aside class="color 4 col-xs-12 col-sm-4 col-md-6 col-lg-3">
-            <img src="../Imagenes/mascara.png" alt= mascara de pestañas class="col-sm-3 img fluid">
+           
             <h3>Maquillajes</h3>
             <p>Utilizo marcas de primera linea como: MAC, Urban decay, YSL, Dior, Too Faced, Anastasia, Loreal,
                 Maybelline, Benefit, entre otras</p>
@@ -157,34 +158,11 @@
         </article>
 
     </section>
-    <h3>Precios</h3>
-    <table id="TablaUno" border="5" cellspacing="10" cellpading="50">
-        <tr class="TablaDos">
-            <th>Cursos</th>
-            <th>Costo</th>
-            <th>Inicio</th>
-            <th>Vacantes</th>
-
-        </tr>
-        <tr>
-            <td>Maquillaje Social</td>
-            <td>2500</td>
-            <td>Febrero 2022</td>
-            <td>20</td>
-        </tr>
-        <tr>
-            <td>Maquillaje de Moda</td>
-            <td>3000</td>
-            <td>Febrero 2022</td>
-            <td>20</td>
-        </tr>
-        <tr>
-            <td>Automaquillaje</td>
-            <td>1500</td>
-            <td>Noviembre 2021</td>
-            <td>5</td>
-        </tr>
-    </table>
+    <footer id="footerUno">Contacto
+        <a href="../pages/mapadesitio.html">Mapa de sitio</a>
+        <br>
+        <img src="..\Imagenes\instagram.png" alt=logo corto>
+      </footer>
     
     <script src="./bootstrap-4.6.1-dist"></script>
 

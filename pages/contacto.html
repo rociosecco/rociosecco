@@ -9,63 +9,60 @@
         content="Contrata tu servicio de Maquillaje profesional en Buenos Aires, Maquillaje para eventos, Cursos de Automaquillaje, Maquillaje de Novias. Encontra Tutoriales de maquillaje para principiantes">
     <meta name="keywords"
         content="Maquilladora, Maquillaje profesional, Tutoriales de maquillaje, Maquillaje de novias, Maquillaje social">
-
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <title>Contacto</title>
     <link rel="stylesheet" href="estilos.css">
+    <style>
+        img{max-width: 100%;}
+    </style>
+    
 </head>
 
 <body>
     <h1>Comunicate conmigo</h1>
     <header class="header">Contacto</header>
     <nav><a href=./index.html>Inicio</a>
-        <a href=./pages/Contacto.html>Contacto</a>
+      
     </nav>
     <h4>Solicitar informacion</h4>
-    <form>
-        Nombre<input type="text" required>
-        Apellido<input type="text" required><br>
+    <form class="formulario">
+        Nombre <input class="input" type="text" required>
+        Apellido <input type="text" required><br>
         <br>
         Email <input type="email" required>
 
 
     </form>
     <h4>Elegi tu curso</h4>
-    <form><select name="Curso">
+    <form class="formulario"><select name="Curso">
             <option value="Maquillaje social">Maquillaje social</option>
             <option value="Maquillaje de moda">Maquillaje de moda</option>
             <option value="Automaquillaje">Automaquillaje</option>
         </select></form> <br>
     <form>
-        <div>Acepto recibir promociones</div>
+        <div class="formulario">Acepto recibir promociones</div>
         <input type="checkbox" name="acepta" value="1">
     </form>
-    <form><input type="reset" value="limpiar formulario"></form><br>
-    <form><input type="submit" value="Enviar Formulario"></form> <br>
-    <section>
-        <p>Mis redes sociales</p>
-        <div class="contenedor">
+    <form class="formulario"><input type="reset" value="limpiar formulario"></form><br>
+    <form class="formulario"><input type="submit" value="Enviar Formulario"></form> <br>
+    
+    <br>
+    <img src="..\Imagenes\banerredes.png" alt=banner>
+  <footer id="footerUno">Contacto
+    <a href="../pages/mapadesitio.html">Mapa de sitio</a>
+    <br>
+    <img src="..\Imagenes\instagram.png" alt=logo corto>
+  </footer>
 
-            <div class="item" id=item2>image2</div>
-            <div class="item" id=item3>image3</div>
-            <div class="item" id=item4>image4</div>
-            <div class="item" id=item5>image5</div>
-            <div class="item" id=item6>image6</div>
-            <div class="item" id=item7>image7</div>
-            <div class="item" id=item8>image8</div>
-            <div class="item" id=item9>image9</div>
-            <div class="item" id=item10>image10</div>
-
-        </div>
-        </div>
-        <br>
-        <br>
-        <img id="ImagenCuatro" src="../Imagenes/redessociales.png" alt=desarrollo web>
-    </section>
-    <section><img src="../Imagenes/lipstick.png" alt=desarrollo web></img></section>
-    <p id="TextoTres">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae numquam odio quos! Modi harum
-        id, exercitationem sapiente tenetur esse incidunt. Quo minima earum fugiat modi deserunt totam ullam nihil
-        sequi?</p>
-
+  <script src="./bootstrap-4.6.1-dist"></script>
 </body>
 
 </html>

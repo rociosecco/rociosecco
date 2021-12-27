@@ -37,6 +37,9 @@ h2 {
   }
   background-color {
     color: thistle;
+     width: auto;
+      height: auto;
+    }
   }
   li a {
     color:rgb(96,24,120)
@@ -129,6 +132,12 @@ h2 {
     border: 8px salmon;
     background: linear-gradient(0deg,rgba(238,223,230)50%, rgba(234,71,117)); 
   }
+  #footerUno @media only screen and (min-width: 380px)
+  { margin-top: 50px;
+  background-color: powderblue;
+  border: 8px salmon;
+  background: linear-gradient(0deg,rgba(238,223,230)50%, rgba(234,71,117)); 
+}
   .header {
     background: pink;
     color:purple;
@@ -350,6 +359,11 @@ h2 {
     }
     .carousel-inner img{width: 100%;height: 100%;}
     .row{margin-top: 100px;
-    margin-left: 50px;}
+    margin-left: 100px;}
   h3{margin-top: 100px;}
   .color3{margin-left: 100px;}
+  
+
+  .ul li {font-size: x-small;}
+  .formulario{margin-left: 50px;}
+  .img{max-width: 100%;}
