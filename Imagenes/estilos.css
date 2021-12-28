@@ -80,6 +80,7 @@ h5 {
   text-align: center;
 }
 li {
+  color:purple
   list-style: circle;
   font-family: "EB Garamond", serif;
   font-family: "Urbanist", sans-serif;
@@ -367,3 +368,5 @@ main {
   .color3{margin-left: 100px;}
   .formulario{margin-left: 50px;}
   .img{max-width: 100%;}
+  .parrafoUno{margin-top: 50px;
+  margin-left: 50px;}
